@@ -1,0 +1,43 @@
+/* CSS voor artikelpagina */
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1 {
+    color: grey;
+    text-shadow: 2px 2px #000000;
+}
+
+section {
+        background-color: hsla(300, 80%, 10%, 0.3);
+        border-radius: 30px;
+        border-style: solid;
+}
+
+a:visited {
+    color: #39e9cb;
+}
+
+a[href="#"]:hover {
+ background: red;
+}
+
+nav {
+    clear: left;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+        display: block;
+        float: right;
+    position: static;
+}
+
